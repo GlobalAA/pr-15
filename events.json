@@ -1,0 +1,23 @@
+[
+	{
+		"eventName": "Подія 1",
+		"description": "Sint in esse magna in laborum officia duis sit id deserunt. Sunt laborum exercitation anim consequat aute consectetur. Tempor exercitation ullamco amet minim. Esse dolor nulla qui dolor officia ex aliquip laborum sit. Excepteur labore sit quis nostrud qui aliqua sit consectetur non officia excepteur ea do. Quis esse aliqua adipisicing mollit adipisicing commodo incididunt adipisicing Lorem minim. Sit in sint sint aliqua nisi enim cillum in ea anim velit mollit reprehenderit Lorem.",
+		"img": "5314.jpg",
+		"date": "2025-01-26",
+		"time": "12:33"
+	},
+	{
+		"eventName": "Подія 2",
+		"description": "Amet irure cillum irure dolor sint ullamco non excepteur sit eu magna occaecat. Tempor nulla minim sunt irure dolore. Reprehenderit est consectetur id mollit ipsum sunt. Eu ad voluptate excepteur id eiusmod culpa minim tempor Lorem consequat. In Lorem minim pariatur amet officia occaecat et deserunt dolore laborum mollit elit.",
+		"img": "404.jpg",
+		"date": "2025-01-27",
+		"time": "11:33"
+	},
+	{
+		"eventName": "Подія 2",
+		"description": "Amet irure cillum irure dolor sint ullamco non excepteur sit eu magna occaecat. Tempor nulla minim sunt irure dolore. Reprehenderit est consectetur id mollit ipsum sunt. Eu ad voluptate excepteur id eiusmod culpa minim tempor Lorem consequat. In Lorem minim pariatur amet officia occaecat et deserunt dolore laborum mollit elit.",
+		"img": "404.jpg",
+		"date": "2025-01-27",
+		"time": "11:33"
+	}
+]

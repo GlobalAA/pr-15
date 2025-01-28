@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "ES2021", // Версия ECMAScript для компиляции
+		"module": "ESNext", // Используем ES-модули
+		"moduleResolution": "node", // Как искать модули
+		"strict": true, // Включаем строгую типизацию
+		"esModuleInterop": true, // Совместимость с CommonJS модулями
+		"skipLibCheck": true, // Пропускаем проверку типов в библиотеках
+		"forceConsistentCasingInFileNames": true, // Согласованность в именах файлов
+		"resolveJsonModule": true
+	},
+	"include": [
+		"ts/**/*.ts" // Путь к вашим файлам TypeScript
+	]
+}

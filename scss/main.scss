@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:regular,500,700);
+@import url(https://fonts.googleapis.com/css?family=Host+Grotesk:300,regular,500,600,700,800);
+
+@import '_vars';
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	padding: 10px 25px;
+	font-family: 'Host Grotesk';
+	color: $color;
+	background-color: $bgc;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.left {
+		display: flex;
+		align-items: center;
+		gap: 25px;
+		.img {
+			user-select: none;
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			p {
+				font-weight: 700;
+				font-size: 16px;
+			}
+		}
+	}
+	.right {
+		img {
+			width: 25px;
+			user-select: none;
+			cursor: pointer;
+		}
+	}
+}
+
+.navigation {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	font-size: 12px;
+	user-select: none;
+	* {
+		cursor: pointer;
+		transition: color ease-in-out 0.3s;
+		&:hover {
+			color: darken($color, 20%);
+		}
+		&.active {
+			color: darken($color, 20%);
+		}
+	}
+}
+
+.events {
+	margin-top: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	.event {
+		background-color: lighten($bgc, 5%);
+		width: 220px;
+		padding: 15px;
+		#time {
+			background-color: darken(gray, 25%);
+			padding: 5px;
+		}
+		p:not(#time) {
+			font-size: 13px;
+			max-height: 400px;
+			max-width: 300px;
+			overflow: hidden;
+			display: -webkit-box;
+			display: box;
+			-webkit-box-orient: vertical;
+			box-orient: vertical;
+			-webkit-line-clamp: 10;
+			line-clamp: 10;
+			text-overflow: ellipsis;
+		}
+		img {
+			width: 100%;
+			height: 146px;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+}
+
+.share {
+	display: none;
+	opacity: 0;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	animation: fadeIn 0.5s forwards;
+	.content {
+		cursor: auto;
+		margin: auto;
+		padding: 20px;
+		img {
+			border-radius: 10px;
+		}
+	}
+}
+
+select {
+	display: none;
+	margin-top: 20px;
+	font-weight: bold;
+	user-select: none;
+	border: 0px;
+	outline: 0px;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: $bgc;
+	border: lighten($bgc, 10%) 2px solid;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: $color;
+	width: 100%;
+	cursor: pointer;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@import '_adaptive';
