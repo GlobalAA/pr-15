@@ -12,7 +12,7 @@ const printEvents = (event: IEvent) => {
 	events.innerHTML += `
 		<div class="event">
 			<p id="time">${event.time}</p>
-			<img src="/static/img/${event.img}" alt="" />
+			<img src="static/img/${event.img}" alt="" />
 			<h1>${event.eventName}</h1>
 			<p>
 				${event.description}
