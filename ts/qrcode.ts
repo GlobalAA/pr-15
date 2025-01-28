@@ -4,7 +4,7 @@ var share = document.querySelector('.share') as HTMLDivElement
 
 const qr = document.querySelector('.qr') as HTMLImageElement
 qr.addEventListener('click', () => {
-	const qrCodeImage = toDataURL('https://example.com', {
+	const qrCodeImage = toDataURL('https://globalaa.github.io/pr-15/', {
 		width: 300,
 		color: { dark: '#0a2647', light: '#dde6ed' },
 	})
