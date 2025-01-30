@@ -110,3 +110,20 @@
 		}
 	}
 }
+
+@media (max-width: 445px) {
+	.header {
+		.left {
+			gap: 10px;
+			.time,
+			.year {
+				display: none;
+			}
+			.img {
+				p {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}

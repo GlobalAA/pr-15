@@ -18,6 +18,6 @@ module.exports = {
 			},
 		],
 	},
-	mode: 'production', // Для разработки (или 'production' для финальной сборки),
+	mode: 'production', // development or production
 	watch: true,
 }
