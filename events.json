@@ -1,28 +1,28 @@
 [
 	{
 		"eventName": "Подія 1",
-		"description": "Sint in esse magna in laborum officia duis sit id deserunt. Sunt laborum exercitation anim consequat aute consectetur. Tempor exercitation ullamco amet minim. Esse dolor nulla qui dolor officia ex aliquip laborum sit. Excepteur labore sit quis nostrud qui aliqua sit consectetur non officia excepteur ea do.",
+		"description":  "Опис події 1"
 		"img": "5314.jpg",
 		"date": "2025-01-26",
 		"time": "12:33"
 	},
 	{
 		"eventName": "Подія 2",
-		"description": "Amet irure cillum irure dolor sint ullamco non excepteur sit eu magna occaecat. Tempor nulla minim sunt irure dolore. Reprehenderit est consectetur id mollit ipsum sunt.",
+		"description": Опис події 2.",
 		"img": "404.jpg",
 		"date": "2025-01-27",
 		"time": "11:33"
 	},
 	{
 		"eventName": "Подія 3",
-		"description": "Amet irure cillum irure dolor sint ullamco non excepteur sit eu magna occaecat. Tempor nulla minim sunt irure dolore. Reprehenderit est consectetur id mollit ipsum sunt.",
+		"description": "Опис події 3",
 		"img": "404.jpg",
 		"date": "2025-01-27",
 		"time": "11:33"
 	},
 	{
 		"eventName": "Подія 4",
-		"description": "Amet irure cillum irure dolor sint ullamco non excepteur sit eu magna occaecat. Tempor nulla minim sunt irure dolore. Reprehenderit est consectetur id mollit ipsum sunt.",
+		"description": "Опис події 4 ",
 		"img": "404.jpg",
 		"date": "2025-01-28",
 		"time": "11:33"
