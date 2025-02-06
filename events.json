@@ -8,7 +8,7 @@
 	},
 	{
 		"eventName": "Подія 2",
-		"description": Опис події 2.",
+		"description": "Опис події 2.",
 		"img": "404.jpg",
 		"date": "2025-01-27",
 		"time": "11:33"
